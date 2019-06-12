@@ -1,6 +1,6 @@
 {
   "variables": {
-    "aws_region": "{{user `aws_region`}},
+    "aws_region": "{{user `aws_region`}}",
     "ami_name": "amazon-eks-node-{{timestamp}}",
     "binary_bucket_region": "{{user `aws_region`}}",
     "creator": "{{env `USER`}}",
